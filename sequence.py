@@ -9,7 +9,7 @@ print(first_int)
 print(sec_int)
 print(third_int)
 
-for i in range(1,n):
+for i in range(3,n):
 
     storage = first_int + sec_int + third_int
     first_int = sec_int
