@@ -1,8 +1,8 @@
-count = 0  #A counter.
-deci = 0   #Short for decimal.
+count = 0
+deci = 0
 
 
-for j in range(10,100):    #The for loop will begin with 10 and go up to 100.
+for j in range(10,100):
 
     for r in range(1,10):           
         deci = j-r                  #I'll use this to check for any possible splits
@@ -13,7 +13,7 @@ for j in range(10,100):    #The for loop will begin with 10 and go up to 100.
     deci = 0
 
 
-for i in range(1,100):      #All positive numbers less than zero
+for i in range(1,100):      
 
     for q in range(1, i+1):
         if i % q == 0:      #A checker for divisors
